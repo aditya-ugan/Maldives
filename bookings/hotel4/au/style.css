@@ -1,0 +1,58 @@
+ *{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(av.webp);
+    height: 500px;
+    background-size: cover;
+    background-position:center;
+}
+ul{
+    text-align: center;
+      background-color: rgba(0,0,0,.2);
+     font-family:serif;
+}
+ ul li{
+    list-style: none;
+    display: inline-block;
+}
+ ul li a{
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 200;
+    padding: 25px;
+    transition: all ease 0.5s;
+}
+ ul li a:hover{
+    background-color: #211b4385;
+     text-decoration: none;
+     list-style: none;
+     color: white;
+}
+h1{
+    font-size: 80px;
+    color:white;
+    text-align: center;
+    font-family:serif;
+    letter-spacing: 2px;
+    font-weight: 200;
+    padding: 100px;
+}
+p{
+    text-align:justify;
+    font-family:serif;
+    letter-spacing: 2px;
+    font-weight: 200;
+    font-size: 25px;
+    margin: 10px;
+}
+.pic{
+    display: flex;
+}

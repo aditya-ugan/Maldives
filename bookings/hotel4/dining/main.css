@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+header{
+    background-image:url(di.webp);
+    height: 600px;
+    background-size: cover;
+    background-position:bottom;
+    background-repeat: no-repeat;
+}
+ ul{
+    text-align: center;
+      background-color: rgba(0,0,0,.2);
+     font-family: cursive;
+}
+ ul li{
+    list-style: none;
+    display: inline-block;
+}
+ ul li a{
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 20px;
+        font-family:serif;
+    letter-spacing: 2px;
+    font-weight: 200;
+    padding: 25px;
+    transition: all ease 0.5s;
+}
+ ul li a:hover{
+    background-color:#211b4385;
+     text-decoration: none;
+     list-style: none;
+     color: white;
+}
+h1{
+    font-size: 80px;
+    color: white;
+    text-align: center;
+    font-family:serif;
+    letter-spacing: 2px;
+    font-weight: 200;
+    padding: 100px;
+}
+p{
+    text-align: center;
+    font-size: 25px;
+     font-family:serif;
+    letter-spacing: 2px;
+    font-weight: 200;
+}
+h5{
+      font-family:serif;
+    letter-spacing: 2px;
+    font-weight: 200;
+    text-align: center;
+}
+.box{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(xc.jpg);
+    height: 500px;
+    background-size:cover;
+    background-position: center;
+    text-align: center;
+    padding: 180px;
+}
+.button{
+      position: absolute;
+    left: 45%;
+}
+.btn{
+    color:black;
+    background-color: white;
+        border: 1px solid white;
+    padding: 10px 30px;
+    text-decoration: none;
+    transition: 0.6s ease;
+        font-family:serif;
+    letter-spacing: 2px;
+    font-weight: 200;
+    font-size: 20px;
+}
+.btn:hover{
+    background-color:black;
+    color:white;
+}
+p2{
+    color:white;
+      font-family:serif;
+    letter-spacing: 2px;
+    font-weight: 200;
+    font-size: 25px;
+}
+.card-footer{
+      font-family:serif;
+    letter-spacing: 2px;
+    font-weight: 200;
+}
+P1{
+       font-family:serif;
+    letter-spacing: 2px;
+    font-weight: 200;
+}

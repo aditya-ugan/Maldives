@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(CV.jpg);
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+}
+h1{
+    font-size: 70px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 200px 10px;
+    color: white;
+}
+.para{
+    margin: 20px;
+    padding: 10px;
+    text-align: justify;
+}
+p1{
+font-size:20px;
+ letter-spacing: 2px;
+}
+ul{
+    list-style-type: none;
+    float: right;
+    margin-top: 25px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color:white;
+    padding: 5px 20px;
+    transition: 0.6s ease;
+    font-size:25px;
+    text-transform: uppercase;
+
+}
+
+ul li a:hover{
+    color:black;
+    background:white;
+    list-style:none;
+    text-decoration: none;
+}
+
+
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+h2{
+    text-align: center;
+}
+.nav-item{
+        padding:0px 5px;
+}

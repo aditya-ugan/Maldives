@@ -1,0 +1,318 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(PL.webp);
+    background-size: cover;
+    background-position:center;
+    height: 600px;
+}
+ ul{
+    text-align: center;
+      background-color: rgba(0,0,0,.2);
+     font-family:serif;
+}
+ ul li{
+    list-style: none;
+    display: inline-block;
+}
+ ul li a{
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 600;
+     font-weight: 200;
+     letter-spacing: 2px;
+    padding: 25px;
+    transition: all ease 0.5s;
+}
+ ul li a:hover{
+    background-color: #211b4385;
+     text-decoration: none;
+     list-style: none;
+     color: white;
+}
+h1{
+    font-size: 80px;
+    color: white;
+    text-align: center;
+    font-family:serif;
+    font-weight: 200;
+    letter-spacing: 2px;
+    padding: 100px;
+}
+p{
+    text-align: center;
+    font-family: serif;
+    font-weight: 200;
+    letter-spacing: 2px;
+    font-size: 25px;
+}
+.button{
+    font-family:cursive;
+    position: absolute;
+    left: 40%;
+    top:107%;
+   
+}
+.btn{
+     border: 1px solid orangered;
+    list-style: none;
+    text-decoration: none;
+    color:orangered;
+    padding: 10px 30px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.btn:hover{
+    text-decoration: none;
+    color: orangered;
+}
+.buton{
+    font-family:cursive;
+    position: absolute;
+    left: 52%;
+   
+}
+.btn1{
+     border: 1px solid green;
+    list-style: none;
+    text-decoration: none;
+    color:green;
+    padding: 10px 30px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.btn1:hover{
+    text-decoration: none;
+    color: green;
+}
+@keyframes slidy {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+}
+
+body { margin: 0; } 
+div#slider { overflow: hidden;}
+div#slider figure img { width: 20%; float: left; height: 600px;}
+div#slider figure { 
+  position: relative;
+  width:500%;
+  margin:0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 20s slidy infinite; 
+}
+h2{
+text-align: center;
+    font-size: 40px;
+    padding: 40px;
+    font-family:serif;
+}
+.btns{
+    font-family:serif;
+    letter-spacing: 2px;
+    position: absolute;  
+    left: 15%;
+   
+}
+.but{
+    font-family:serif;
+    letter-spacing: 2px;
+    position: absolute;
+    left: 45%;
+}
+.bton{
+    font-family:serif;
+    letter-spacing: 2px;
+    position: absolute;
+    left: 65%;
+}
+.bnt{
+    list-style: none;
+    text-decoration: none;
+    color: dimgray;
+    border: 1px solid dimgrey;
+    padding: 10px 30px;
+    font-size: 20px;
+}
+.bnt:hover{
+    text-decoration: none;
+    list-style: none;
+    color: dimgrey;
+}
+.bnt1{
+    list-style: none;
+    text-decoration: none;
+    color:darkviolet;
+    border: 1px solid darkviolet;
+    padding: 10px 30px;
+     font-size: 20px;
+}
+.bnt1:hover{
+    text-decoration: none;
+    color: darkviolet;
+    list-style: none;
+}
+.bnt2:hover{
+    text-decoration: none;
+    color: darkcyan;
+    list-style: none;
+}
+.bnt3:hover{
+    text-decoration: none;
+    color: dodgerblue;
+    list-style: none;
+}
+.bnt4:hover{
+    text-decoration: none;
+    color:brown;
+    list-style: none;
+}
+.bnt5:hover{
+    text-decoration: none;
+    color:chartreuse;
+    list-style: none;
+}
+.bnt2{
+    list-style: none;
+    text-decoration: none;
+    color:darkcyan;
+    border: 1px solid darkcyan;
+    padding: 10px 30px;
+     font-size: 20px;
+}
+.bts{
+    font-family:serif;
+    letter-spacing: 2px;
+    position: absolute;  
+    left: 10%;
+   
+}
+.butt{
+    font-family:serif;
+    letter-spacing: 2px;
+    position: absolute;
+    left: 40%;
+}
+.btonn{
+    font-family:serif;
+    letter-spacing: 2px;
+    position: absolute;
+    left: 65%;
+}
+.bnt3{
+    list-style: none;
+    text-decoration: none;
+    color:dodgerblue;
+    border: 1px solid dodgerblue;
+    padding: 10px 30px;
+    font-size: 20px;
+}
+.bnt4{
+    list-style: none;
+    text-decoration: none;
+    color:brown;
+    border: 1px solid brown;
+    padding: 10px 30px;
+     font-size: 20px;
+}
+.bnt5{
+    list-style: none;
+    text-decoration: none;
+    color:chartreuse;
+    border: 1px solid chartreuse;
+    padding: 10px 30px;
+     font-size: 20px;
+}
+.btto:hover{
+text-decoration: none;
+    color:white;
+}
+.bntt{
+    font-family:serif;
+    letter-spacing: 2px;
+    font-weight: 200;
+    position: absolute;
+    left: 40%;
+}
+.btto{
+    list-style: none;text-decoration: none;
+    color:white;
+    border: 1px solid red;
+    padding: 10px 30px;
+     font-size: 30px;
+    background: red;
+    
+}
+.box{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(zp.jpg);
+    height: 500px;
+    background-size:cover;
+    background-position: center;
+    text-align: center;
+    padding: 180px;
+}
+.button2{
+      position: absolute;
+    left: 45%;
+}
+.bot{
+    color:black;
+    background-color: white;
+        border: 1px solid white;
+    padding: 10px 30px;
+    text-decoration: none;
+    transition: 0.6s ease;
+    font-family:serif;
+    font-weight: 200;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+.bot:hover{
+    background-color:black;
+    color:white;
+    text-decoration: none;
+}
+p2{
+    color:white;
+    font-family:serif;
+    letter-spacing: 2px;
+    font-weight: 200;
+    font-size: 25px;
+}
+.swiper-container {
+      width:100%;
+      height: 600;
+    }
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background:;
+
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+    
+ 

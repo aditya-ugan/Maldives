@@ -1,0 +1,255 @@
+body{
+     background-color: black;
+}
+
+*{
+ padding: 0px;
+    margin: 0px;   
+}
+.content{
+    display: flex;
+    padding:;
+}
+.hotel{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(xr.jpg);
+    height: 500px;
+    width: 750px;
+    margin: 0px 5px;
+    background-size: cover;
+    background-position: center;
+}
+.hot2{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(cx.jpeg);
+    height: 500px;
+    width:750px;
+     padding:10px 0px 0px 0px;
+    margin:0px 10px;
+     background-size: cover;
+    background-position: center;
+}
+h1{
+ font-weight: 200;
+    padding: 100px 10px 0px;
+    color: white;
+    font-size: 60px;
+}
+p{
+    font-size: 20px;
+    color: white;
+    font-weight: 100;
+    padding: 0px 10px 0px;
+    letter-spacing: 2px;
+}
+.double{
+    display: flex;
+}
+.button1{
+    font-size: 30px;
+    margin: 20px;
+    padding: 20px 0px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 100;
+    transition: 0.6s ease;
+}
+.btn1{
+    border: 1px solid aqua;
+    padding: 10px 25px;
+    transition: 0.6s ease;
+    text-decoration: none;
+    color: aqua;
+}
+.btn1:hover{
+    text-decoration: none;
+    list-style: none;
+    color:blue;
+    background-color: aqua;
+}
+.button2{
+    font-size: 30px;
+    margin: 20px;
+    padding: 20px 0px;
+    text-transform: uppercase;
+    transition: 0.6s ease
+    letter-spacing: 2px;
+    font-weight: 100;
+}
+.btn2{
+    border: 1px solid aqua;
+    padding: 10px 25px;
+    transition: 0.6s ease;
+    text-decoration: none;
+    color: aqua;
+}
+.btn2:hover{
+    text-decoration: none;
+    list-style: none;
+    color:blue;
+    background-color: aqua;
+}
+.hotel3{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(xc.jpg);
+    height: 500px;
+    width: 745px;
+    margin: 0px 5px;
+    background-size: cover;
+    background-position: center;
+}
+.hotel4{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(vb.jpg);
+    height: 500px;
+    width:750px;
+     padding:10px 0px 0px 0px;
+    margin:0px 10px;
+     background-size: cover;
+    background-position: center;
+}
+.navar{
+    display: flex;
+}
+h2{
+ font-weight: 200;
+    padding: 100px 10px 0px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 60px;
+}
+p1{
+    font-size: 20px;
+    color: white;
+    font-weight: 100;
+    padding: 0px 10px 0px;
+    letter-spacing: 2px;
+}
+.block{
+    display: flex;
+}
+.button3{
+    font-size: 30px;
+    margin: 20px;
+    padding: 20px 0px;
+    text-transform: uppercase;
+    transition: 0.6s ease
+    letter-spacing: 2px;
+    font-weight: 100;
+}
+.btn3{
+    border: 1px solid aqua;
+    padding: 10px 25px;
+    transition: 0.6s ease;
+    text-decoration: none;
+    color: aqua;
+}
+.btn3:hover{
+    text-decoration: none;
+    list-style: none;
+    color:blue;
+    background-color: aqua;
+}
+.button4{
+    font-size: 30px;
+    margin: 20px;
+    padding: 20px 0px;
+    text-transform: uppercase;
+    transition: 0.6s ease
+    letter-spacing: 2px;
+    font-weight: 100;
+}
+.btn4{
+    border: 1px solid aqua;
+    padding: 10px 25px;
+    transition: 0.6s ease;
+    text-decoration: none;
+    color: aqua;
+}
+.btn4:hover{
+    text-decoration: none;
+    list-style: none;
+    color:blue;
+    background-color: aqua;
+}
+.block2{
+    display: flex;
+}
+.button5{
+    font-size: 30px;
+    margin: 20px;
+    padding: 20px 0px;
+    text-transform: uppercase;
+    transition: 0.6s ease
+    letter-spacing: 2px;
+    font-weight: 100;
+}
+.btn5{
+    border: 1px solid aqua;
+    padding: 10px 25px;
+    transition: 0.6s ease;
+    text-decoration: none;
+    color: aqua;
+}
+.btn5:hover{
+    text-decoration: none;
+    list-style: none;
+    color:blue;
+    background-color: aqua;
+}
+.button6{
+    font-size: 30px;
+    margin: 20px;
+    padding: 20px 0px;
+    text-transform: uppercase;
+    transition: 0.6s ease
+    letter-spacing: 2px;
+    font-weight: 100;
+}
+.btn6{
+    border: 1px solid aqua;
+    padding: 10px 25px;
+    transition: 0.6s ease;
+    text-decoration: none;
+    color: aqua;
+}
+.btn6:hover{
+    text-decoration: none;
+    list-style: none;
+    color:blue;
+    background-color: aqua;
+}
+ul{
+    list-style-type: none;
+    text-transform: uppercase;
+    float: right;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 25px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+    font-size: 20px;
+}
+
+ul li a:hover{
+    background-color: white;
+    color: black;
+}
+.main{
+    max-width: 1200px;
+    margin: auto;
+    padding: 30px 0px;
+}
+.nav-item{
+    padding:0px 5px;
+}
+p2{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-weight: 100;
+    font-style: italic;
+}
+.para{
+    padding: 10px 0px;
+    margin: 10px;
+}

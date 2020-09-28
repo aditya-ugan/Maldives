@@ -1,0 +1,307 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.sidebar{
+    position:absolute;
+    left: -250px;
+    width:250px;
+    height: 700px;
+    background:beige;
+    transition: all .5s ease;
+}
+.sidebar header{
+font-size:22px;
+    color:white;
+    text-align: center;
+    line-height: 70px;
+    background:black;
+    user-select: none;
+}
+.sidebar ul a{
+    width:100%;
+    display: block;
+    line-height: 65px;
+    font-size: 20px;
+    color:black;
+    padding-left:10px;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(255,255,255,.1);
+    border-bottom: 1px solid white;
+    transition: .4s;
+}
+ul li:hover a{
+    padding-left: 50px;
+    text-decoration: none;
+}
+.sidebar ul a i{
+    margin-right: 16px;
+}
+#check{
+    display: none;
+}
+label #btn,label #cancel{
+    position: absolute;
+    cursor: pointer;
+    background:;
+    border-radius: 3px;
+}
+label #btn{
+    left: 40px;
+    top: 25px;
+    font-size: 35px;
+    color:white;
+    padding: 6px 12px;
+    transition: all .5s;
+}
+label #cancel{
+    z-index:1111;
+    left: -195px;
+    top:17px;
+    font-size: 30px;
+    background: white;
+    color:black;
+    padding: 4px 9px;
+    transition: all .5s ease;
+}
+#check:checked ~ .sidebar{
+    left: 0;
+}
+#check:checked ~ label #btn{
+    left:250px;
+    opacity:0;
+    pointer-events: none;
+}
+#check:checked~label #cancel{
+    left: 195px;
+}
+.section{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(xc.jpg);
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+    background-position:center;
+}
+h1{
+    text-align: center;
+    font-size: 80px;
+    color: white;
+    padding:250px 0px ;
+    font-weight: 200;
+    font-family:serif;
+}
+.button{
+    position: absolute;
+    top: 5%;
+    left: 90%;
+    transform: translate(-50%,-50%);
+}
+.btn{
+    text-transform: uppercase;
+    border: 1px solid white;
+    padding: 15px 30px;
+    color:white;
+    text-decoration: none;
+    transition: 0.6s ease;
+    background-color:;
+}
+
+.btn:hover{
+    border:1px solid white;
+    background-color:white;
+    color:black;
+}
+h2{
+    font-size: 40px;
+    text-align: center;
+    padding: 30px;
+    color:darkslategray;
+    font-weight: 200;
+}
+p{
+    font-size: 25px;
+    padding:0px 20px;
+    text-align:center;
+    font-weight: 200;
+    letter-spacing: 2px;
+    font-family: serif;
+}
+.pic{
+    padding:30px 30px;
+    display: flex;
+}
+p1{
+    font-size:20px;
+  letter-spacing: 2px;
+    font-weight: 200;
+}
+.block2{
+    text-align:;
+    padding: 50px 0px;
+  
+}
+h3{
+    font-size: 60px;
+    text-align: center;
+    font-weight: 200;
+    letter-spacing: 2px;
+}
+.button1{
+    padding:100px 30px;
+    font-size:25px;
+    left: 80%;
+    position: absolute;
+       transform: translate(-0%,-0%);
+}
+.bt1{
+    border: 1px solid aqua;
+     padding: 10px 30px;
+    background: aqua;
+    color:blue;
+    font-weight: 200;
+    letter-spacing: 2px;
+     text-decoration: none;
+    transition: 0.6s ease;
+}
+.bt1:hover{
+    background-color:blue;
+    color:aqua;
+    text-decoration: none;
+    list-style: none;
+}
+.photo{
+    display:flex; 
+}
+.blo1{
+    padding: 20px 10px; 
+}
+.blo2{
+    float:right;
+    padding: 0px 20px;
+}
+p2{
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight:200;
+}
+h4{
+    font-size: 60px;
+    padding: 50px;
+    text-align: center;
+    font-weight: 200;
+    letter-spacing: 2px;
+}
+.button2{
+    padding: 100px 50px;
+    font-size: 25px;
+    position: absolute;
+}
+.bt2{
+    border: 1px solid aqua;
+    padding: 10px 30px;
+    color:blue;
+    background: aqua;
+    text-decoration: none;
+    transition: 0.6s ease;
+    letter-spacing: 2px;
+    font-weight: 200;
+}
+.bt2:hover{
+    background-color:blue;
+    color: aqua;
+    text-decoration: none;
+    list-style: none;
+}
+.mode{
+    display: flex;
+}
+.block{
+    padding: 60px 30px;
+}
+.bloc1{
+    padding: 160px 0px;
+}
+h5{
+     font-size: 60px;
+    text-align: center;
+     transform: translate(-0%,-100%);
+    font-weight: 200;
+    letter-spacing: 2px;
+}
+.button3{
+    padding:100px 30px;
+    font-size:25px;
+    left: 80%;
+    position: absolute;
+       transform: translate(-0%,-0%);
+}
+.bt3{
+    border: 1px solid aqua;
+     padding: 10px 30px;
+    color:blue;
+    background: aqua;
+     text-decoration: none;
+    transition: 0.6s ease;
+    font-weight: 200;
+    letter-spacing: 2px;
+}
+.bt3:hover{
+    background-color:blue;
+    color: aqua;
+    text-decoration:none;
+    list-style: none;
+}
+.box{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(off.jpg);
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+h6{
+    font-size: 50px;
+    text-align: center;
+    padding:90px 10px;
+    color: aliceblue;
+}
+.button4{
+    text-align: center;
+    padding: 10px 650px;
+    font-size:18px;
+    position:absolute;
+      top:350%;
+}
+.bt4{
+    border: 1px solid deepskyblue;
+     padding: 10px 30px;
+    color:white;
+     text-decoration: none;
+    transition: 0.6s ease;
+}
+.bt4:hover{
+    background-color:deepskyblue;
+}
+.border{
+    border: 2px solid skyblue;
+}
+.footer{
+    background-color:dimgrey;
+    height: 400px;
+    width: 100%;
+}
+.para{
+    padding: 30px 10px;
+    text-align: justify;
+}
+.para1{
+    padding: 10px 0px;
+    text-align: justify;
+}
+.para2
+{
+    padding:10px 0px;
+    text-align: justify;
+}
